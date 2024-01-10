@@ -1,0 +1,198 @@
+/******************************** Pagina principal ************************************/
+
+body{
+    background-image: url(../imagenes/fondotextura.jpg);
+}
+
+@font-face {
+    font-family: Fuente1;
+    src: url(.);
+}
+
+
+/************************************ Cabecera y titulos ************************************/
+header{
+    background-color:rgb(255, 105, 105);
+    color: white;
+    font-family: 'Galindo', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+    padding: 2%;
+    position:relative;
+    bottom: 9px;
+    width: auto;
+}
+
+/************************************ Imagenes y videos ************************************/
+img{
+    height: 50px;
+    width: 50px;
+}
+/************************************ Menu ***********************************/
+nav{
+    background-color: rgb(199, 0, 57);
+    float: left;
+    width: 200px;
+    margin: 1% 0px;
+    border-radius: 50px;
+    text-align: center;    
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 105, 105);
+    color: rgb(12, 2, 71);
+    border-radius: 30px;
+}
+
+/*********************************** Contenedor 1 ***********************************/
+.bloque_enlaces{
+    background-color: lightslategray;
+    border-radius: 20px;
+    margin: 6px;
+    text-align: center;
+}
+
+.bloque_enlaces p{
+    margin: 0% 5%;
+    text-align: left;
+}
+
+.bloque_enlaces h2{
+    color: rgb(20, 30, 70);
+    background-color: rgb(255, 105, 105);;
+    border-radius: 60px;
+    margin: 10px 10px;
+}
+
+article img{
+    outline:rgb(20, 30, 70) 1px solid;
+    outline-offset: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 20%;
+}
+
+#contenedor1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 1% 10%;
+}
+
+/*central*/
+#bloque1{
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+#bloque1 iframe{
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+#articulo_central{
+    float: right;
+    width: 68%;
+    margin: 0% 1%;
+}
+
+/*tiempo*/
+#bloque2 table{
+margin: 0px auto ;
+border-collapse: collapse;
+background-color: white;
+border: rgb(20, 30, 70) 2px solid;
+margin-bottom: 10px;
+}
+
+#bloque2 th{
+    color: white;
+    background-color: rgb(20, 30, 70);
+}
+
+td{
+    border: rgb(20, 30, 70) 2px solid;
+
+}
+
+#maximas{
+    background-color: rgb(141, 185, 232);
+}
+
+#minimas{
+    background-color: rgb(255, 105, 105);
+}
+
+/*imagen*/
+#bloque3{
+    grid-column: 1/3
+
+}
+
+#bloque3 img{
+    outline:rgb(20, 30, 70) 1px solid;
+    outline-offset: 10px;
+    margin: 2%;
+    width: 70px;
+    height: 70px;
+}
+
+/*********************************** Footer ************************************/
+footer{
+    background-color:rgb(255, 105, 105);
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Galindo', sans-serif;
+}
+
+footer a:hover {
+    text-shadow: 1px 1px 10px #450b46af;
+    color: white;
+    }
+
+/************************************ Para el artículo 3 ************************************/
+
+#articulo3{
+    padding: 3%;
+}
+
+#articulo3 img{
+    outline:rgb(20, 30, 70) 1px solid;
+    outline-offset: 10px;
+    margin: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.left{
+    float: left;
+    clear: left;
+}
+
+.right{
+float: right;
+clear: right;
+}
+
+p .right2{
+    text-align: left;
+}
+
+hr{
+    border:rgb(255, 105, 105) 3px solid;
+    margin: 10px 50px;
+}
